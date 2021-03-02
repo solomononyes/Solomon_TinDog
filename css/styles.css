@@ -1,0 +1,160 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+  text-align: center;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 3% 15%;
+  padding-bottom: 7%;
+  text-align: left;
+}
+.title-heading {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/*navigation bar */
+.container-fluid {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  padding: 2rem;
+}
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+.title-intro-img {
+  position: relative;
+}
+.intro-img {
+  left: 30%;
+  position: absolute;
+  width: 60%;
+  height: auto;
+  transform: rotate(25deg);
+  transition: 0.5s ease;
+}
+.intro-img:hover {
+  width: 62%;
+}
+#features {
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+  padding: 7% 15%;
+}
+#features h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5%;
+}
+#features .icon {
+  color: #ef8172;
+  font-size: 3rem;
+}
+
+#features .icon:hover {
+  color: #ff4c68;
+}
+.feature-box {
+  margin-bottom: 6%;
+}
+
+#features p {
+  color: #8f8f8f;
+  font-size: 80%;
+  padding: 0% 20%;
+}
+/* testimonials section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+#carousel-testimonial {
+  padding: 7% 15%;
+}
+#testimonials h2 {
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonials-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+.press-img {
+  width: 15%;
+  margin: 0% 3% 5%;
+}
+.lady-img {
+  border-radius: 50%;
+}
+
+/* Pricing Section */
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+#pricing {
+  padding: 7%;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+.social-icon i {
+  margin: 2% 1%;
+}
+#footer p {
+  font-size: 70%;
+  color: gray;
+}
+
+@media (max-width: 1028px) {
+  .intro-img {
+    transform: rotate(0deg);
+    position: static;
+  }
+  #title {
+    text-align: center;
+  }
+  .title-heading,
+  #testimonials h2 {
+    font-size: 2rem;
+  }
+  .download-button {
+    transform: scale(0.7);
+    margin-left: -4%;
+    margin-right: -4%;
+  }
+}

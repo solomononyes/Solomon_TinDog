@@ -1,2 +1,1 @@
-# Solomon_TinDog
-TinDog Project
+TinDog Starting Files
