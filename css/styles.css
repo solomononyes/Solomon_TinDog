@@ -135,12 +135,19 @@ body {
 .social-icon i {
   margin: 2% 1%;
 }
+.social-icon i:hover {
+  color: #4c535a;
+}
 #footer p {
   font-size: 70%;
   color: gray;
 }
 
 @media (max-width: 1028px) {
+  .title-intro-img {
+    margin-top: 20%;
+  }
+
   .intro-img {
     transform: rotate(0deg);
     position: static;
@@ -154,7 +161,6 @@ body {
   }
   .download-button {
     transform: scale(0.7);
-    margin-left: -4%;
-    margin-right: -4%;
+    margin: 0 -3%;
   }
 }
